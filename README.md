@@ -33,6 +33,7 @@ to create your integration. The following controllers contain the API request st
 
 
 Authentication
+
 All requests to the MultiSafepay API require authentication. Authentication is provided by including an API Key as an HTTP header in your request. Each website has it's own API Key so if you are operating multiple websites be sure to use the correct API Key for each site. The API Key can be found under the website settings in MultiSafepay Control.
 
 The HTTP header name for the API Key is: api_key
