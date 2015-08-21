@@ -59,7 +59,7 @@ class klarnaController {
               "state" => "Zuid holland",
               "country" => "NL",
               "phone" => "0612345678",
-              "email" => "dirk.meij@klarna.com",
+              "email" => "test@test.nl",
           ),
           "gateway_info" => array(
               "birthday" => "10071970",
@@ -68,7 +68,7 @@ class klarnaController {
               "referrer" => "http://google.nl",
               "user_agent" => "msp01",
               "gender" => "male",
-              "email" => "dirk.meij@klarna.com",
+              "email" => "test@test.nl",
           ),
           "shopping_cart" => array(
               "items" => array(
