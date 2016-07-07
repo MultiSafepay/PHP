@@ -1,9 +1,11 @@
 <?php
 
+namespace MultiSafepayAPI;
+
 class API_Autoloader {
 
   public static function autoload($class_name) {
-    $name = str_replace("_", "/", $class_name);
+    $name = join("/", array_slice(explode('\\', $class_name), 1));
     $file_name = realpath(dirname(__FILE__) . "/{$name}.php");
 
     if (file_exists($file_name)) {
