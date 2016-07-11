@@ -1,6 +1,7 @@
 <?php
+namespace MultiSafepayAPI\Object;
 
-class Object_Gateways extends Object_Core {
+class Gateways extends Core {
 
   public $success;
   public $data;
