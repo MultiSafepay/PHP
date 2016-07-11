@@ -1,5 +1,7 @@
 <?php
 
+namespace MultiSafepayAPI;
+
 class Client {
 
     public $orders;
@@ -14,9 +16,9 @@ class Client {
 	public $debug;
     
     public function __construct() {
-        $this->orders = new Object_Orders($this);
-        $this->issuers = new Object_Issuers($this);
-        $this->gateways = new Object_Gateways($this);
+        $this->orders = new Object\Orders($this);
+        $this->issuers = new Object\Issuers($this);
+        $this->gateways = new Object\Gateways($this);
     }
     
     public function getRequest() {
@@ -42,7 +44,7 @@ class Client {
 
     public function processAPIRequest($http_method, $api_method, $http_body = NULL) {
         if (empty($this->api_key)) {
-            throw new Exception("Please configure your MultiSafepay API Key.");
+            throw new \Exception("Please configure your MultiSafepay API Key.");
         }
 
         $url = $this->api_url . $api_method;
@@ -76,7 +78,7 @@ class Client {
 		}
 
         if (curl_errno($ch)) {
-            throw new Exception("Unable to communicatie with the MultiSafepay payment server (" . curl_errno($ch) . "): " . curl_error($ch) . ".");
+            throw new \Exception("Unable to communicatie with the MultiSafepay payment server (" . curl_errno($ch) . "): " . curl_error($ch) . ".");
         }
 		
 		curl_close($ch);

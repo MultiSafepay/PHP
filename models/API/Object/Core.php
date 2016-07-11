@@ -1,11 +1,12 @@
 <?php
+namespace MultiSafepayAPI\Object;
 
-class Object_Core {
+class Core {
 
   protected $mspapi;
   public $result;
 
-  public function __construct(Client $mspapi) {
+  public function __construct(\MultiSafepayAPI\Client $mspapi) {
     $this->mspapi = $mspapi;
   }
 
@@ -38,11 +39,11 @@ class Object_Core {
   protected function processRequest($http_method, $api_method, $http_body = NULL) {
     $body = $this->mspapi->processAPIRequest($http_method, $api_method, $http_body);
     if (!($object = @json_decode($body))) {
-      throw new Exception("'{$body}'.");
+      throw new \Exception("'{$body}'.");
     }
 
     if (!empty($object->error_code)) {
-      $exception = new Exception("{$object->error_code}: {$object->error_info}.");
+      $exception = new \Exception("{$object->error_code}: {$object->error_info}.");
       throw $exception;
     }
     return $object;
