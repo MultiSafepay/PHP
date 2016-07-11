@@ -1,6 +1,7 @@
 <?php
+namespace MultiSafepayAPI\Object;
 
-class Object_Orders extends Object_Core {
+class Orders extends Core {
 
   public $success;
   public $data;
