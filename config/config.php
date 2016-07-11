@@ -19,6 +19,6 @@ if (!defined('API_URL')) {
 }
 
 if (!defined('TOOLKIT_VERSION')) {
-  define('TOOLKIT_VERSION', '2.0.0');
+  define('TOOLKIT_VERSION', '2.0.1');
 }
 ?>
