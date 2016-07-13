@@ -28,7 +28,7 @@ class gatewayController {
   }
 
   function getGateways() {
-    $msp = new Client;
+    $msp = new \MultiSafepayAPI\Client;
     $msp->setApiKey($this->api_key);
     $msp->setApiUrl($this->api_url);
     try {
@@ -53,7 +53,7 @@ class gatewayController {
   }
 
   function startTransaction($gateway) {
-    $msp = new Client;
+    $msp = new \MultiSafepayAPI\Client;
     $msp->setApiKey($this->api_key);
     $msp->setApiUrl($this->api_url);
 
