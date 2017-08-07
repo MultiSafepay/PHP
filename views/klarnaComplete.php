@@ -53,7 +53,7 @@
                   "state" => "Zuid holland",
                   "country" => "NL",
                   "phone" => "0612345678",
-                  "email" => "dirk.meij@klarna.com",
+                  "email" => "info@test.com",
               ),
               "gateway_info" => array(
                   "birthday" => "10071970",
@@ -62,7 +62,7 @@
                   "referrer" => "http://google.nl",
                   "user_agent" => "msp01",
                   "gender" => "male",
-                  "email" => "dirk.meij@klarna.com",
+                  "email" => "info@test.com",
               ),
               "shopping_cart" => array(
                   "items" => array(
