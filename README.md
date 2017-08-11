@@ -1,8 +1,10 @@
 # PHP
 
+## Description
 This is a MultiSafepay Toolkit. With this Toolkit you can test the most common API calls the MultiSafepay JSON API supports.
 
-At this point there are examples for:
+## Example
+There are some examples that you can try and implement on your own website
 
 1. MultiSafepay Connect
 2. MultiSafepay FastCheckout
@@ -32,13 +34,12 @@ to create your integration. The following controllers contain the API request st
 
 
 
-Authentication
-
+### Authentication
 All requests to the MultiSafepay API require authentication. Authentication is provided by including an API Key as an HTTP header in your request. Each website has it's own API Key so if you are operating multiple websites be sure to use the correct API Key for each site. The API Key can be found under the website settings in MultiSafepay Control.
 
 The HTTP header name for the API Key is: api_key
 
-
+## References
 The complete API Reference can be found at:
 https://www.multisafepay.com/documentation/doc/API-Reference/
 
