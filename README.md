@@ -44,13 +44,13 @@ to create your integration. The following controllers contain the API request st
 9. recurringController.php## Usage
 
 ## Support
-If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:techsupport@multisafepay.com">techsupport@multisafepay.com</a>
+If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
 
 ## Mistakes and improvements 
-If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/multisafepay-python-wrapper/pulls)
+If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/PHP/pulls)
 
 ## API Documentation
 [Click here](https://docs.multisafepay.com/api/) for the MultiSafepay API documentation.
 ## License
-[MIT License](https://github.com/MultiSafepay/multisafepay-python-wrapper/blob/master/LICENSE)
+[MIT License](https://github.com/MultiSafepay/PHP/blob/master/LICENSE.md)
 
