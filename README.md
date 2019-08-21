@@ -1,14 +1,15 @@
 <p align="center">
   <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
 </p>
-# PHP wrapper for the MultiSafepay API
+
+# PHP toolkit for the MultiSafepay API
 This is a MultiSafepay Toolkit. With this Toolkit you can test the most common API calls the MultiSafepay JSON API supports.
 
-## About MultiSafepay ##
+## About MultiSafepay
 MultiSafepay is a collecting payment service provider which means we take care of the agreements, technical details and payment collection required for each payment method. You can start selling online today and manage all your transactions from one place.
 
 ## Requirements
-- To use the wrapper you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
+- To use the toolkit you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
 
 ## Authentication
 All requests to the MultiSafepay API require authentication. Authentication is provided by including an API Key as an HTTP header in your request. 
@@ -47,7 +48,7 @@ to create your integration. The following controllers contain the API request st
 If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
 
 ## Mistakes and improvements 
-If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/PHP/pulls)
+If you spot mistakes or want to contribute in improving this toolkit, feel free to [create pull requests](https://github.com/MultiSafepay/PHP/pulls)
 
 ## API Documentation
 [Click here](https://docs.multisafepay.com/api/) for the MultiSafepay API documentation.
