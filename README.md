@@ -1,7 +1,21 @@
-# PHP
-
+<p align="center">
+  <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
+</p>
+# PHP wrapper for the MultiSafepay API
 This is a MultiSafepay Toolkit. With this Toolkit you can test the most common API calls the MultiSafepay JSON API supports.
 
+## About MultiSafepay ##
+MultiSafepay is a collecting payment service provider which means we take care of the agreements, technical details and payment collection required for each payment method. You can start selling online today and manage all your transactions from one place.
+
+## Requirements
+- To use the wrapper you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
+
+## Authentication
+All requests to the MultiSafepay API require authentication. Authentication is provided by including an API Key as an HTTP header in your request. 
+
+The HTTP header name for the API Key is: api_key
+
+## Usage
 At this point there are examples for:
 
 1. MultiSafepay Connect
@@ -18,7 +32,6 @@ At this point there are examples for:
 
 This Toolkit can also be a base for your own integration. Within the models folder you can find the API classes to connect with the MultiSafepay payment server, the controllers folder contains the controllers that can be used
 to create your integration. The following controllers contain the API request structures:
-
  
 1. connectController.php
 2. fastcheckoutController.php
@@ -28,17 +41,16 @@ to create your integration. The following controllers contain the API request st
 6. payafterdeliveryController.php
 7. detailsController.php
 8. splitpaymentController.php
-9. recurringController.php
+9. recurringController.php## Usage
 
+## Support
+If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:techsupport@multisafepay.com">techsupport@multisafepay.com</a>
 
+## Mistakes and improvements 
+If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/multisafepay-python-wrapper/pulls)
 
-Authentication
-
-All requests to the MultiSafepay API require authentication. Authentication is provided by including an API Key as an HTTP header in your request. Each website has it's own API Key so if you are operating multiple websites be sure to use the correct API Key for each site. The API Key can be found under the website settings in MultiSafepay Control.
-
-The HTTP header name for the API Key is: api_key
-
-
-The complete API Reference can be found at:
-https://www.multisafepay.com/documentation/doc/API-Reference/
+## API Documentation
+[Click here](https://docs.multisafepay.com/api/) for the MultiSafepay API documentation.
+## License
+[MIT License](https://github.com/MultiSafepay/multisafepay-python-wrapper/blob/master/LICENSE)
 
